@@ -6,7 +6,7 @@ SudokuNCExplainer solves most SudokuNCs, i.e. those that require only sudoku sol
 
 SudokuNCExplainer does **not** solve more difficult SudokuNCs, specially those that require NC solving techniques.
 
-SudokuNCExplainer can generate a puzzle<sup>2</sup>, the Symmetry type is set to None, and the Difficulty level is set to Diabolical at Maximum difficulty - it takes many minutes to generate a SudokuNC puzzle - be patient ...
+SudokuNCExplainer can generate a puzzle<sup>1</sup>, the Symmetry type is set to None, and the Difficulty level is set to Diabolical at Maximum difficulty - it takes many minutes to generate a SudokuNC puzzle - be patient ...
 
 Also, the generated puzzles have unique solutions, **but they are not minimal** - because of changes to the generator code, and some very slow Nested Forcing Chains techniques have been commented out.
 
@@ -16,6 +16,7 @@ Finally, some GUI functionality applies well to Sudoku grids, but less well to S
 java.exe -jar SudokuNCExplainer.jar
 
 ![](/images/sample1.jpg)
+
 The puzzle is taken from [here](http://forum.enjoysudoku.com/djape-sample-non-consecutive-t33093.html):
 ```
 .7.....4..........69.....251.......7..47536..3.......291.....36..........3.....9. ED=1.2/1.2/1.2
@@ -78,7 +79,7 @@ If r1c2=2, then r1c13<>1,2 resulting r1c13=7
 So 1,2 can be removed from r1c2
 ```
 
-<sup>2</sup> SudokuNCExplainer has generated puzzles ranging from ED=1.2/1.2/1.2 to ED=10.8/1.2/1.2.
+<sup>1</sup> SudokuNCExplainer has generated puzzles ranging from ED=1.2/1.2/1.2 to ED=10.8/1.2/1.2.
 
 .
 
